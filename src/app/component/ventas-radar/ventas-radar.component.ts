@@ -2,6 +2,7 @@ import { Component, OnInit, ViewChild } from '@angular/core';
 import { BaseChartDirective } from 'ng2-charts';
 import { VentaService } from '../../service/venta.service';
 import { Chart, ChartData, ChartOptions, registerables } from 'chart.js';
+import { c } from "../../../../node_modules/@angular/cdk/a11y-module.d-DBHGyKoh";
 
 Chart.register(...registerables); 
 
